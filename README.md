@@ -1,1 +1,2 @@
 # badges-community
+Welcome to the Badges.community repo! This repo runs on Github pages and is a simple signposting area used to point to various badge community initiatives. The first iteration (March 2022) points to Badge Wiki and the Keep Badges Weird community.
