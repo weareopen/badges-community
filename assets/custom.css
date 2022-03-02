@@ -38,11 +38,15 @@ section{
 		}
 }
 
-body > footer{
-  background: var(--accent-bg);
-  border-bottom: 1px solid var(--border);
-  text-align: center;
-  padding: 0 .5rem 2rem .5rem;
-  grid-column: 1/-1;
-  box-sizing: border-box;
+@media (prefers-color-scheme: dark) {
+  --bg: #fff;
+  --accent-bg: #f5f7ff;
+  --text: #212121;
+  --text-light: #585858;
+  --border: #d8dae1;
+  --accent: #0d47a1;
+  --code: #d81b60;
+  --preformatted: #444;
+  --marked: #ffdd33;
+  --disabled: #efefef;
 }
