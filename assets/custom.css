@@ -1,3 +1,6 @@
+a:link, a:visited, a:hover{
+	color:gray;
+}
 header{
 	border-top: #00C399 30px solid;
 }
@@ -6,7 +9,6 @@ body > footer{
   background: var(--accent-bg);
   border-bottom: 1px solid var(--border);
   text-align: center;
-  padding: 0 .5rem 2rem .5rem;
   grid-column: 1/-1;
   box-sizing: border-box;
 }
@@ -27,6 +29,13 @@ section{
 	width: 40%;
 	float:left;
 	text-align: center;
+}
+
+.pLogo{
+	padding: 1%;
+}
+.waologo{
+	padding: 1.5% 1%;
 }
 
 .icon{
