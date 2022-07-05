@@ -55,5 +55,9 @@ section{
 
 
 button {
-  background: #00C399;
+  background: #111358;
+}
+button:hover{
+	  background: #00C399;
+
 }
