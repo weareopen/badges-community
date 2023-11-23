@@ -3,12 +3,24 @@
 	padding:5% 0 0 0;
 }
 
+.leadTxtCTA{
+	background:#FFBC42;
+	padding:3%;
+	border: none;
+	border-radius: 5px;
+}
+
+.leadTxtCTA a{
+	font-weight: bold;
+	color:#000;
+}
+
 .lead button {
   background: #E72779;
 }
 
 a:link, a:visited, a:hover{
-	color:gray;
+	color:black;
 }
 header{
 	border-top: #00C399 30px solid;
