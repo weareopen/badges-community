@@ -19,6 +19,12 @@
   background: #E72779;
 }
 
+.blockquote{
+	border-left: 0.35rem solid var(--accent);
+	color: var(--text-light);
+	font-style: italic;
+}
+
 a:link, a:visited, a:hover{
 	color:black;
 }
@@ -42,6 +48,7 @@ section{
 	width: 40%;
 	float:left;
 	text-align: center;
+	min-height: 400px;
 }
 
 .columnLead{
@@ -78,6 +85,17 @@ section{
  	 clear:both;
  	 width:100%;
 		}
+}
+
+@media only screen and (max-width: 960px) {
+	  h1 {
+	  font-size:30px;
+	  }
+  .column, .lead {
+ 	 clear:both;
+ 	 width:100%;
+		}
+}
 }
 
 
