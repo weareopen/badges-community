@@ -23,6 +23,8 @@
 	border-left: 0.35rem solid var(--accent);
 	color: var(--text-light);
 	font-style: italic;
+	text-align: left;
+	padding-left: .85em;
 }
 
 a:link, a:visited, a:hover{
